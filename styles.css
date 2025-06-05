@@ -305,4 +305,9 @@ hr {
     .black-container, .black-container2 {
         padding: 2rem;
     }
+
+    .calculations {
+        width: 100%;
+        max-width: 190px;
+    }
 }
