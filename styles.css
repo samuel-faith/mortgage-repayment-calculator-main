@@ -274,3 +274,35 @@ hr {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media (max-width: 600px) {
+    .two-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        max-width: 300px;
+        place-items: center;
+    }
+
+    .white-head {
+        display: inline;
+    }
+
+    .white-head h3 {
+        color: hsl(202, 55%, 16%);
+        font-size: 16px;
+        margin-bottom: .3rem;
+    }
+
+    .term-rate {
+        display: block;
+    }
+
+    .white-container, .black-container, .black-container2 {
+        border-radius: 0px;
+    }
+
+    .black-container, .black-container2 {
+        padding: 2rem;
+    }
+}
