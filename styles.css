@@ -276,12 +276,18 @@ hr {
 }
 
 @media (max-width: 600px) {
+
+    .attribution {
+        padding-bottom: 1rem;
+    }
+    
     .two-container {
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
         max-width: 300px;
         place-items: center;
+        margin-bottom: 2rem;
     }
 
     .white-head {
